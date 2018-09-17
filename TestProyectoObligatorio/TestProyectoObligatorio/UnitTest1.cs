@@ -10,6 +10,7 @@ namespace TestProyectoObligatorio
         public void TestMethod1()
         {
             SistemFilesOpener TestFileSistemOpener = new SistemFilesOpener();
+            TestFileSistemOpener.FileOpener("C:\Test");
 
         }
     }
